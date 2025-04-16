@@ -1,22 +1,122 @@
 [
   {
-    "Question": "Je Marek p\u00ED\u010Da",
-    "Options": [
-      "Ano",
-      "Ne",
-      "Kuba je v\u011Bt\u0161\u00ED"
-    ],
+    "Question": "Kdo je autorem písně 'Imagine'?",
+    "Options": ["John Lennon", "Freddie Mercury", "David Bowie"],
+    "CorrectIndex": 0,
+    "CorrectLetter": "A"
+  },
+  {
+    "Question": "Která hra obsahuje postavu jménem Geralt z Rivie?",
+    "Options": ["Assassin's Creed", "Zaklínač", "Skyrim"],
+    "CorrectIndex": 1,
+    "CorrectLetter": "B"
+  },
+  {
+    "Question": "Ve které hře najdeš město Los Santos?",
+    "Options": ["GTA V", "Mafia II", "Red Dead Redemption"],
+    "CorrectIndex": 0,
+    "CorrectLetter": "A"
+  },
+  {
+    "Question": "Jaký jazyk běží v prohlížeči?",
+    "Options": ["JavaScript", "C#", "Python"],
+    "CorrectIndex": 0,
+    "CorrectLetter": "A"
+  },
+  {
+    "Question": "Ve kterém filmu hraje postava jménem Neo?",
+    "Options": ["Matrix", "John Wick", "Inception"],
+    "CorrectIndex": 0,
+    "CorrectLetter": "A"
+  },
+  {
+    "Question": "Ve které hře sbíráš prsteny jako Sonic?",
+    "Options": ["Super Mario", "Crash Bandicoot", "Sonic the Hedgehog"],
     "CorrectIndex": 2,
     "CorrectLetter": "C"
   },
   {
-    "Question": "Je Filip frajer",
-    "Options": [
-      "Ano",
-      "Ne",
-      "Jsem v\u011Bt\u0161\u00ED"
-    ],
+    "Question": "Jaký engine používá hra Fortnite?",
+    "Options": ["CryEngine", "Unreal Engine", "Unity"],
+    "CorrectIndex": 1,
+    "CorrectLetter": "B"
+  },
+  {
+    "Question": "Která kapela je známá písní 'Bohemian Rhapsody'?",
+    "Options": ["The Beatles", "Queen", "Nirvana"],
+    "CorrectIndex": 1,
+    "CorrectLetter": "B"
+  },
+  {
+    "Question": "Jaký jazyk je nejčastěji používán pro web backend?",
+    "Options": ["Python", "C++", "HTML"],
     "CorrectIndex": 0,
     "CorrectLetter": "A"
+  },
+  {
+    "Question": "Jak se jmenuje hlavní postava v sérii Half-Life?",
+    "Options": ["Freeman", "Price", "Vito"],
+    "CorrectIndex": 0,
+    "CorrectLetter": "A"
+  },
+  {
+    "Question": "Která databáze je relační?",
+    "Options": ["MongoDB", "MySQL", "Redis"],
+    "CorrectIndex": 1,
+    "CorrectLetter": "B"
+  },
+  {
+    "Question": "K čemu slouží Git?",
+    "Options": ["Sledování verzí", "Programování UI", "Přístup k webu"],
+    "CorrectIndex": 0,
+    "CorrectLetter": "A"
+  },
+  {
+    "Question": "Z jakého filmu je hláška 'Já jsem tvůj otec'?",
+    "Options": ["Star Wars", "Matrix", "Avatar"],
+    "CorrectIndex": 0,
+    "CorrectLetter": "A"
+  },
+  {
+    "Question": "Jak se jmenuje kouzelník z Bradavic?",
+    "Options": ["Harry Potter", "Frodo", "Percy Jackson"],
+    "CorrectIndex": 0,
+    "CorrectLetter": "A"
+  },
+  {
+    "Question": "Jaký žánr hraje kapela Metallica?",
+    "Options": ["Metal", "Jazz", "Pop"],
+    "CorrectIndex": 0,
+    "CorrectLetter": "A"
+  },
+  {
+    "Question": "Kdo hrál Iron Mana v MCU?",
+    "Options": ["Robert Downey Jr.", "Chris Evans", "Tom Holland"],
+    "CorrectIndex": 0,
+    "CorrectLetter": "A"
+  },
+  {
+    "Question": "Jaký hudební nástroj má 88 kláves?",
+    "Options": ["Klavír", "Housle", "Flétna"],
+    "CorrectIndex": 0,
+    "CorrectLetter": "A"
+  },
+  {
+    "Question": "Co je to IDE?",
+    "Options": ["Textový soubor", "Vývojové prostředí", "Databáze"],
+    "CorrectIndex": 1,
+    "CorrectLetter": "B"
+  },
+  {
+    "Question": "Co je to BPM v hudbě?",
+    "Options": ["Rychlost internetu", "Počet tónů", "Beats per minute"],
+    "CorrectIndex": 2,
+    "CorrectLetter": "C"
+  },
+  {
+    "Question": "Kdo režíroval film Pán prstenů?",
+    "Options": ["Steven Spielberg", "Peter Jackson", "James Cameron"],
+    "CorrectIndex": 1,
+    "CorrectLetter": "B"
   }
 ]

@@ -705,11 +705,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\f.lafata\\source\\repos\\DiscordBot\\DiscordBot\\DiscordBot.csproj",
+      "projectUniqueName": "C:\\Users\\f.lafata\\Documents\\GitHub\\DiscordBot.net\\DiscordBot\\DiscordBot\\DiscordBot.csproj",
       "projectName": "DiscordBot",
-      "projectPath": "C:\\Users\\f.lafata\\source\\repos\\DiscordBot\\DiscordBot\\DiscordBot.csproj",
+      "projectPath": "C:\\Users\\f.lafata\\Documents\\GitHub\\DiscordBot.net\\DiscordBot\\DiscordBot\\DiscordBot.csproj",
       "packagesPath": "C:\\Users\\f.lafata\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\f.lafata\\source\\repos\\DiscordBot\\DiscordBot\\obj\\",
+      "outputPath": "C:\\Users\\f.lafata\\Documents\\GitHub\\DiscordBot.net\\DiscordBot\\DiscordBot\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
