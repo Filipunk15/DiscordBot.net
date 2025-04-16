@@ -1,0 +1,22 @@
+[
+  {
+    "Question": "Je Marek p\u00ED\u010Da",
+    "Options": [
+      "Ano",
+      "Ne",
+      "Kuba je v\u011Bt\u0161\u00ED"
+    ],
+    "CorrectIndex": 2,
+    "CorrectLetter": "C"
+  },
+  {
+    "Question": "Je Filip frajer",
+    "Options": [
+      "Ano",
+      "Ne",
+      "Jsem v\u011Bt\u0161\u00ED"
+    ],
+    "CorrectIndex": 0,
+    "CorrectLetter": "A"
+  }
+]
