@@ -26,6 +26,7 @@ class Program
             .AddSingleton(_client)
             .AddSingleton(_interactions)
             .AddSingleton<QuestionService>()
+            .AddSingleton<ScoreService>()
             .BuildServiceProvider();
 
         _client.Log += LogAsync;

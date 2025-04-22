@@ -9,9 +9,12 @@
         private readonly QuestionService _questions;
         private static readonly ConcurrentDictionary<ulong, ActiveQuiz> _activeQuizzes = new();
 
-        public QuizModule(QuestionService questions)
+        private readonly ScoreService _scoreService;
+
+        public QuizModule(QuestionService questions, ScoreService scoreService)
         {
             _questions = questions;
+            _scoreService = scoreService;
         }
 
         [SlashCommand("kvíz", "Zobrazí náhodnou otázku s tlačítky pro všechny hráče")]
@@ -34,13 +37,11 @@
                 .WithColor(Color.Blue)
                 .Build();
 
-            var components = new ComponentBuilder()
+            await RespondAsync(embed: embed, components: new ComponentBuilder()
                 .WithButton("A", customId: "odpoved:A", ButtonStyle.Primary)
                 .WithButton("B", customId: "odpoved:B", ButtonStyle.Primary)
-                .WithButton("C", customId: "odpoved:C", ButtonStyle.Primary);
-
-            await RespondAsync(embed: embed, components: components.Build());
-            var original = await GetOriginalResponseAsync();
+                .WithButton("C", customId: "odpoved:C", ButtonStyle.Primary)
+                .Build());
 
             var quiz = new ActiveQuiz(question.CorrectLetter);
             _activeQuizzes[Context.Channel.Id] = quiz;
@@ -50,14 +51,19 @@
                 await Task.Delay(30000); // 30 sekund
 
                 var correct = quiz.CorrectAnswer;
-                var correctUsers = quiz.Answers.Where(x => x.Value == correct).Select(x => $"<@{x.Key}>").ToList();
-                var wrongUsers = quiz.Answers.Where(x => x.Value != correct).Select(x => $"<@{x.Key}>").ToList();
+                var correctUsers = quiz.Answers.Where(x => x.Value == correct).Select(x => x.Key).ToList();
+                var wrongUsers = quiz.Answers.Where(x => x.Value != correct).Select(x => x.Key).ToList();
+
+                foreach (var userId in correctUsers)
+                {
+                    _scoreService.AddPoint(userId);
+                }
 
                 string summary = $"✅ Správná odpověď: **{correct}**\n";
                 if (correctUsers.Any())
-                    summary += $"🎉 Správně: {string.Join(", ", correctUsers)}\n";
+                    summary += $"🎉 Správně: {string.Join(", ", correctUsers.Select(id => $"<@{id}>").ToList())}\n";
                 if (wrongUsers.Any())
-                    summary += $"❌ Špatně: {string.Join(", ", wrongUsers)}\n";
+                    summary += $"❌ Špatně: {string.Join(", ", wrongUsers.Select(id => $"<@{id}>").ToList())}\n";
                 if (!quiz.Answers.Any())
                     summary += "😢 Nikdo neodpověděl.";
 
@@ -116,6 +122,49 @@
 
             await RespondAsync("✅ Otázka úspěšně přidána!");
         }
+
+
+        [SlashCommand("skóre", "Ukáže tvoje aktuální body")]
+        public async Task Skore()
+        {
+            int points = _scoreService.GetScore(Context.User.Id);
+            if (points == 1)
+            {
+                await RespondAsync($"🎯 {Context.User.Mention}, máš {points} bod!");
+
+            }
+            else if (points >= 2 && points <= 4)
+            {
+                await RespondAsync($"🎯 {Context.User.Mention}, máš {points} body!");
+            }
+            else
+            {
+                await RespondAsync($"🎯 {Context.User.Mention}, máš {points} bodů!");
+            }
+        }
+
+        [SlashCommand("top3", "Zobrazí 3 nejlepší hráče podle skóre")]
+        public async Task Top3()
+        {
+            var topScores = _scoreService.GetTopScores(3);
+
+            if (topScores.Count == 0)
+            {
+                await RespondAsync("❌ Zatím nikdo nezískal žádné body.");
+                return;
+            }
+
+            var description = string.Join("\n", topScores.Select((entry, index) => $"#{index + 1}: <@{entry.Key}> - {entry.Value} bodů"));
+
+            var embed = new EmbedBuilder()
+                .WithTitle("🏆 Top 3 hráči")
+                .WithDescription(description)
+                .WithColor(Color.Gold)
+                .Build();
+
+            await RespondAsync(embed: embed);
+        }
     }
+
 
 }
