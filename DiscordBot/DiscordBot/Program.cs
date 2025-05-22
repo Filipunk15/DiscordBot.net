@@ -10,7 +10,7 @@ class Program
     private DiscordSocketClient _client;
     private InteractionService _interactions;
     private IServiceProvider _services;
-    private string _token = "MTM2MTk5MjAzNzIzNDM4MDk3Mg.GavpI1.k2qCkGC5GIxKO8vTumXS4RsOEaXxn5uTYmu6U8";
+    private string _token = "YOURTOKEN";
 
     static Task Main(string[] args) => new Program().MainAsync();
 
