@@ -36,7 +36,7 @@ class Program
         {
             await _interactions.AddModulesAsync(Assembly.GetEntryAssembly(), _services);
 
-            await _interactions.RegisterCommandsToGuildAsync(600407450272792582);
+            await _interactions.RegisterCommandsToGuildAsync(SERVERID);
             await _interactions.RegisterCommandsGloballyAsync();
             Console.WriteLine("✅ Slash příkazy registrovány.");
         };
