@@ -1,18 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\f.lafata\\Documents\\GitHub\\DiscordBot.net\\DiscordBot\\",
+  "WorkspaceRootPath": "C:\\Users\\f.lafata\\OneDrive - KDK Automotive GmbH\\Dokumenty\\GitHub\\DiscordBot.net\\DiscordBot\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1A2117E7-629C-4216-AF66-C6066777FE08}|DiscordBot\\DiscordBot.csproj|c:\\users\\f.lafata\\documents\\github\\discordbot.net\\discordbot\\discordbot\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1A2117E7-629C-4216-AF66-C6066777FE08}|DiscordBot\\DiscordBot.csproj|c:\\users\\f.lafata\\onedrive - kdk automotive gmbh\\dokumenty\\github\\discordbot.net\\discordbot\\discordbot\\quizmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A2117E7-629C-4216-AF66-C6066777FE08}|DiscordBot\\DiscordBot.csproj|solutionrelative:discordbot\\quizmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A2117E7-629C-4216-AF66-C6066777FE08}|DiscordBot\\DiscordBot.csproj|c:\\users\\f.lafata\\onedrive - kdk automotive gmbh\\dokumenty\\github\\discordbot.net\\discordbot\\discordbot\\questionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A2117E7-629C-4216-AF66-C6066777FE08}|DiscordBot\\DiscordBot.csproj|solutionrelative:discordbot\\questionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A2117E7-629C-4216-AF66-C6066777FE08}|DiscordBot\\DiscordBot.csproj|c:\\users\\f.lafata\\onedrive - kdk automotive gmbh\\dokumenty\\github\\discordbot.net\\discordbot\\discordbot\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1A2117E7-629C-4216-AF66-C6066777FE08}|DiscordBot\\DiscordBot.csproj|solutionrelative:discordbot\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1A2117E7-629C-4216-AF66-C6066777FE08}|DiscordBot\\DiscordBot.csproj|c:\\users\\f.lafata\\documents\\github\\discordbot.net\\discordbot\\discordbot\\scoreservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A2117E7-629C-4216-AF66-C6066777FE08}|DiscordBot\\DiscordBot.csproj|solutionrelative:discordbot\\scoreservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1A2117E7-629C-4216-AF66-C6066777FE08}|DiscordBot\\DiscordBot.csproj|c:\\users\\f.lafata\\onedrive - kdk automotive gmbh\\dokumenty\\github\\discordbot.net\\discordbot\\discordbot\\activequiz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A2117E7-629C-4216-AF66-C6066777FE08}|DiscordBot\\DiscordBot.csproj|solutionrelative:discordbot\\activequiz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1A2117E7-629C-4216-AF66-C6066777FE08}|DiscordBot\\DiscordBot.csproj|c:\\users\\f.lafata\\documents\\github\\discordbot.net\\discordbot\\discordbot\\activequiz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A2117E7-629C-4216-AF66-C6066777FE08}|DiscordBot\\DiscordBot.csproj|solutionrelative:discordbot\\activequiz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1A2117E7-629C-4216-AF66-C6066777FE08}|DiscordBot\\DiscordBot.csproj|c:\\users\\f.lafata\\onedrive - kdk automotive gmbh\\dokumenty\\github\\discordbot.net\\discordbot\\discordbot\\scoreservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A2117E7-629C-4216-AF66-C6066777FE08}|DiscordBot\\DiscordBot.csproj|solutionrelative:discordbot\\scoreservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,11 +30,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 185,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Bookmark",
@@ -35,41 +47,97 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "QuizModule.cs",
+              "DocumentMoniker": "C:\\Users\\f.lafata\\OneDrive - KDK Automotive GmbH\\Dokumenty\\GitHub\\DiscordBot.net\\DiscordBot\\DiscordBot\\QuizModule.cs",
+              "RelativeDocumentMoniker": "DiscordBot\\QuizModule.cs",
+              "ToolTip": "C:\\Users\\f.lafata\\OneDrive - KDK Automotive GmbH\\Dokumenty\\GitHub\\DiscordBot.net\\DiscordBot\\DiscordBot\\QuizModule.cs",
+              "RelativeToolTip": "DiscordBot\\QuizModule.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T08:28:17.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "QuestionService.cs",
+              "DocumentMoniker": "C:\\Users\\f.lafata\\OneDrive - KDK Automotive GmbH\\Dokumenty\\GitHub\\DiscordBot.net\\DiscordBot\\DiscordBot\\QuestionService.cs",
+              "RelativeDocumentMoniker": "DiscordBot\\QuestionService.cs",
+              "ToolTip": "C:\\Users\\f.lafata\\OneDrive - KDK Automotive GmbH\\Dokumenty\\GitHub\\DiscordBot.net\\DiscordBot\\DiscordBot\\QuestionService.cs",
+              "RelativeToolTip": "DiscordBot\\QuestionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T08:28:03.082Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\f.lafata\\Documents\\GitHub\\DiscordBot.net\\DiscordBot\\DiscordBot\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\f.lafata\\OneDrive - KDK Automotive GmbH\\Dokumenty\\GitHub\\DiscordBot.net\\DiscordBot\\DiscordBot\\Program.cs",
               "RelativeDocumentMoniker": "DiscordBot\\Program.cs",
-              "ToolTip": "C:\\Users\\f.lafata\\Documents\\GitHub\\DiscordBot.net\\DiscordBot\\DiscordBot\\Program.cs",
-              "RelativeToolTip": "DiscordBot\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAgAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\f.lafata\\OneDrive - KDK Automotive GmbH\\Dokumenty\\GitHub\\DiscordBot.net\\DiscordBot\\DiscordBot\\Program.cs*",
+              "RelativeToolTip": "DiscordBot\\Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-17T06:26:24.465Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "ScoreService.cs",
-              "DocumentMoniker": "C:\\Users\\f.lafata\\Documents\\GitHub\\DiscordBot.net\\DiscordBot\\DiscordBot\\ScoreService.cs",
+              "DocumentMoniker": "C:\\Users\\f.lafata\\OneDrive - KDK Automotive GmbH\\Dokumenty\\GitHub\\DiscordBot.net\\DiscordBot\\DiscordBot\\ScoreService.cs",
               "RelativeDocumentMoniker": "DiscordBot\\ScoreService.cs",
-              "ToolTip": "C:\\Users\\f.lafata\\Documents\\GitHub\\DiscordBot.net\\DiscordBot\\DiscordBot\\ScoreService.cs",
+              "ToolTip": "C:\\Users\\f.lafata\\OneDrive - KDK Automotive GmbH\\Dokumenty\\GitHub\\DiscordBot.net\\DiscordBot\\DiscordBot\\ScoreService.cs",
               "RelativeToolTip": "DiscordBot\\ScoreService.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAgwCIAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-17T06:18:37.606Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ActiveQuiz.cs",
-              "DocumentMoniker": "C:\\Users\\f.lafata\\Documents\\GitHub\\DiscordBot.net\\DiscordBot\\DiscordBot\\ActiveQuiz.cs",
+              "DocumentMoniker": "C:\\Users\\f.lafata\\OneDrive - KDK Automotive GmbH\\Dokumenty\\GitHub\\DiscordBot.net\\DiscordBot\\DiscordBot\\ActiveQuiz.cs",
               "RelativeDocumentMoniker": "DiscordBot\\ActiveQuiz.cs",
-              "ToolTip": "C:\\Users\\f.lafata\\Documents\\GitHub\\DiscordBot.net\\DiscordBot\\DiscordBot\\ActiveQuiz.cs",
+              "ToolTip": "C:\\Users\\f.lafata\\OneDrive - KDK Automotive GmbH\\Dokumenty\\GitHub\\DiscordBot.net\\DiscordBot\\DiscordBot\\ActiveQuiz.cs",
               "RelativeToolTip": "DiscordBot\\ActiveQuiz.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-16T10:25:11.556Z",
               "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 130,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{244df7ea-d757-4b52-b92c-efd2d3402c91}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{4a18f9d0-b838-11d0-93eb-00a0c90f2734}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{90243340-bd7a-11d0-93ef-00a0c90f2734}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         }

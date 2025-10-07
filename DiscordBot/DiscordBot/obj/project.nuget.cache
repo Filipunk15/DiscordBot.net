@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fdymbXBRYTU=",
+  "dgSpecHash": "yAIeUAN2geQ=",
   "success": true,
-  "projectFilePath": "C:\\Users\\f.lafata\\Documents\\GitHub\\DiscordBot.net\\DiscordBot\\DiscordBot\\DiscordBot.csproj",
+  "projectFilePath": "C:\\Users\\f.lafata\\OneDrive - KDK Automotive GmbH\\Dokumenty\\GitHub\\DiscordBot.net\\DiscordBot\\DiscordBot\\DiscordBot.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\f.lafata\\.nuget\\packages\\discord.net\\3.17.2\\discord.net.3.17.2.nupkg.sha512",
     "C:\\Users\\f.lafata\\.nuget\\packages\\discord.net.commands\\3.17.2\\discord.net.commands.3.17.2.nupkg.sha512",
